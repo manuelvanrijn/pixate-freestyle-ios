@@ -1,6 +1,15 @@
+# Pixate Freestyle FORK
+
+## CHANGES
+
+Changed the iOS version to `9.1` and `enabled bitcode`.
+
+To build run: `scripts/build_framework.sh`
+
 # Pixate Freestyle
 
 Pixate Freestyle is a native iOS (and [Android](https://github.com/pixate/pixate-freestyle-android)) library that styles native controls with CSS. With Freestyle, you can replace many complicated lines of Objective-C with a few lines of CSS. This simplifies and centralizes your styling code, and [offers other benefits](http://www.freestyle.org/) as well.
+
 
 ## Getting Started
 
@@ -10,7 +19,7 @@ There are several ways to download and install the Pixate Freestyle framework.
 
 The easiest is to [download the installer](http://www.freestyle.org/downloads/freestyle/PixateFreestyle-2.1.4.pkg), which always contains the latest  version, and drag **PixateFreestyle.framework** into your Xcode project. Alternatively, you can download the framework file only (i.e. no samples) by going to the [releases section](https://github.com/Pixate/pixate-freestyle-ios/releases) of this repo.
 
-*NOTE: The installer will place the files into your **Documents** folder in a folder named **PixateFreestyle***. 
+*NOTE: The installer will place the files into your **Documents** folder in a folder named **PixateFreestyle***.
 
  Once installed, add the following import to the top of your **main.m** file:
 

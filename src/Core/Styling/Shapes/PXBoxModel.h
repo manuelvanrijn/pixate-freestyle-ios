@@ -58,7 +58,7 @@ typedef enum {
 @property (nonatomic, readonly) CGRect borderBounds;
 @property (nonatomic, readonly) CGRect contentBounds;
 
-@property (nonatomic) PXOffsets *padding;
+//@property (nonatomic) PXOffsets *padding;
 @property (nonatomic) PXBoxSizing boxSizing;
 
 - (id)initWithBounds:(CGRect)bounds;
